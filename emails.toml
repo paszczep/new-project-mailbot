@@ -1,0 +1,34 @@
+
+# Na adresy pod kluczem `always` informacja wysyłana jest zawsze.
+always = [
+  "orders@client-domain.ex",
+  "name.surname@client-domain.ex"
+  ]
+
+# Adresy właściwe dla grupy projektu.
+[group]
+"SPAM" = [
+  "spam@client-domain.ex",
+  "offers@client-domain.ex",
+]
+
+"BACON" = [
+  "bacon@client-domain.ex",
+  "offers@client-domain.ex",
+]
+
+"EGGS" = ["eggs@client-domain.ex"]
+
+"SPAM_SAUSAGE" = [
+  "spam_sausage@client-domain.ex",
+  "offers@client-domain.ex",
+]
+
+"BACON_SAUSAGE" = [
+  "bacon_sausage@client-domain.ex",
+  "offers@client-domain.ex",
+]
+
+"SPAM_SPAM" = ["service@client-domain.ex"]
+
+"OTHERS" = ["offers@client-domain.ex"]
